@@ -5,16 +5,14 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
 h1{
-    background-color: blue;
+    
     color: white;
     text-align: center;
     padding: 20px;
     text-transform: capitalize;
     font-family: 'Times New Roman', Times, serif;
     font-size: 60px;
-
 }
-
 body{
     background: url('assets/fondito1.jpg') no-repeat;
     background-size: cover;
@@ -46,7 +44,7 @@ body{
 
 #izquierda{
     float: left;
-    width: 300px;
+    width: 20%;
     background: rgba(0, 0, 0, 4);
     margin: 40px;
     margin-top: 7%;
@@ -62,7 +60,7 @@ body{
 }
 #centro{
     float: left;
-    width: 500px;
+    width: 33.33%;
     background: rgba(0, 0, 0, 4);
     margin: 0 auto;
     margin-top: 4%;
@@ -82,7 +80,7 @@ body{
 }
 #derecha{
     float: left;
-    width: 500px;
+    width: 33.33%;
     background: rgba(0, 0, 0, 4);
     margin: 40px;
     margin-top: 4%;
@@ -104,12 +102,25 @@ table {
     width: 400px;
     margin: auto;
   }
+  table,h2{
+    color: white;
+    text-align: center;
+  }
   th,
   td {
+    width: 100px;
     border: 1px solid beige;
     color: antiquewhite;
   }
   thead {
     background-color: cornflowerblue;
     color: white;
+  }
+  iframe{
+    padding: 40px;
+  }
+
+  footer{
+    color: white;
+    text-align: center;
   }
