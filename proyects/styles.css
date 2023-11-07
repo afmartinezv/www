@@ -45,10 +45,11 @@ body{
 }
 
 #izquierda{
-    width: 500px;
+    float: left;
+    width: 300px;
     background: rgba(0, 0, 0, 4);
-    margin: 0 auto;
-    margin-top: 4%;
+    margin: 40px;
+    margin-top: 7%;
     padding: 20px;
     color: white;
     text-align: left;
@@ -56,7 +57,59 @@ body{
     
 }
 #izquierda h2{
+    font-size: 200%;
+    text-align: center;
+}
+#centro{
+    float: left;
+    width: 500px;
+    background: rgba(0, 0, 0, 4);
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 30px;
+    color: white;
+    text-align: left;
+    border-radius: 20px;  
+    
+}
+#centro h2{
     font-size: 250%;
     text-align: center;
 
 }
+#centro h3{
+    text-align: center;
+}
+#derecha{
+    float: left;
+    width: 500px;
+    background: rgba(0, 0, 0, 4);
+    margin: 40px;
+    margin-top: 4%;
+    padding: 20px;
+    color: white;
+    text-align: left;
+    border-radius: 20px;  
+}
+video{
+
+    width: 450px;
+    height: 250px;
+}
+#derecha h2{
+    text-align: center;
+    padding: 5px;
+}
+table {
+    width: 400px;
+    margin: auto;
+  }
+  th,
+  td {
+    border: 1px solid beige;
+    color: antiquewhite;
+  }
+  thead {
+    background-color: cornflowerblue;
+    color: white;
+  }
