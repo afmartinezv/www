@@ -1,127 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap');
+:root{
+    --color1: #202840;
+    --color2: #0D758C;
+    --color3: #A0C3D9;
+    --color4: #6698D9;
+    --color5: #4E7FBF;
+    --color5: #FFF;
+
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
-h1{
-    
-    color: white;
-    text-align: center;
-    padding: 20px;
-    text-transform: capitalize;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 60px;
-}
 body{
-    background: url('assets/fondito1.jpg') no-repeat;
-    background-size: cover;
-    font-family: 'century Gothic' , sans-serif;
-}
-
-.box{
-    width: 500px;
-    background: rgba(0, 0, 0, 4);
-    margin: 0 auto;
-    margin-top: 4%;
-    padding: 20px;
-    color: white;
-    text-align: center;
-    border-radius: 20px;
-}
-.box-img{
-    border-radius: 47%;
-}
-.box h2{
-    font-size: 40px;
-    letter-spacing: 1px;
-    font-weight: 100;
-    margin: 30ox 0 20px;
-}
-.box p{
-    text-align: justify;
-}
-
-#izquierda{
-    float: left;
-    width: 20%;
-    background: rgba(0, 0, 0, 4);
-    margin: 40px;
-    margin-top: 7%;
-    padding: 20px;
-    color: white;
-    text-align: left;
-    border-radius: 20px;  
-    
-}
-#izquierda h2{
-    font-size: 200%;
-    text-align: center;
-}
-#centro{
-    float: left;
-    width: 33.33%;
-    background: rgba(0, 0, 0, 4);
-    margin: 0 auto;
-    margin-top: 4%;
-    padding: 30px;
-    color: white;
-    text-align: left;
-    border-radius: 20px;  
-    
-}
-#centro h2{
-    font-size: 250%;
-    text-align: center;
+    font-family: 'open sans';
 
 }
-#centro h3{
-    text-align: center;
-}
-#derecha{
-    float: left;
-    width: 33.33%;
-    background: rgba(0, 0, 0, 4);
-    margin: 40px;
-    margin-top: 4%;
-    padding: 20px;
-    color: white;
-    text-align: left;
-    border-radius: 20px;  
-}
-video{
-
-    width: 450px;
-    height: 250px;
-}
-#derecha h2{
-    text-align: center;
-    padding: 5px;
-}
-table {
-    width: 400px;
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
     margin: auto;
-  }
-  table,h2{
-    font-size: 40px;
-    color: white;
+    overflow: hidden;
+}
+.titulo{
+    color: var(--color1);
+    font-size: 30px;
     text-align: center;
-  }
-  th,
-  td {
-    width: 100px;
-    border: 1px solid beige;
-    color: antiquewhite;
-  }
-  thead {
-    background-color: cornflowerblue;
-    color: white;
-  }
-  iframe{
-    padding: 40px;
-  }
+    margin-bottom: 60px;
+}
 
-  footer{
-    color: white;
-    text-align: center;
-  }
+header{
+    width: 100%;
+    height: 100vh;
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(191, 78%, 68%, 0.514), hsla(192, 68%, 41%, 0.575)), url("portada.jpg");  
+    background: linear-gradient(to right, hsla(191, 78%, 68%, 0.63), hsla(192, 68%, 41%, 0.671)), url("portada.jpg"); 
+    justify-content: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    
+    }
+
+    nav{
+        text-align: right;
+        padding: 30px 50px 0 0;
+    }
+
+    nav > a{
+        color: var(--color5);
+        font-weight: 450;
+        text-decoration: none;
+        margin-right: 15px;
+
+    }
+
+    nav > a:hover{
+        text-decoration: underline;
+        font-size: larger;
+    }
+
+    header .textos-header{
+        display: flex;
+        height: 630px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+
+    .textos-header h1{
+        font-size: 50px;
+        color: #FFF;
+    }
+    .textos-header h2{
+        font-size: 30px;
+        font-weight: 300;
+        color: #FFF;
+    }
+
+    .wave{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }

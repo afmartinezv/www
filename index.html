@@ -1,95 +1,120 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andres Martinez</title>
+    <link rel="shortcut icon" href="assets/LOGO.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
+    <title>Andres Martinez</title>
 </head>
 <body>
-  <header>
-    <h1>Mi Perfil</h1>
-  </header>
+    <header>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Acerca de Mi</a>
+            <a href="#">Pasatiempos</a>
+            <a href="#">Rutina Diaria</a>
+            <a href="#">Comidas Favoritas</a>
+            <a href="#">Contacto</a>
+        </nav>
+        <section class="textos-header">
+            <h1>El éxito no es la clave de la felicidad.</h1>
+            <h2>La felicidad es la clave del éxito.</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C199.48,154.44 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
 
-  <main>
-    <section class="box">
-       <img src="mi-foto.jpg" width="180" alt="" class="box-img"/>
-       <h2>Quien es Andres Martinez?</h2>
-       <p>Andrés Martínez es un joven de 29 años, ingeniero electrónico de profesión, padre de una princesa de 2 años, apasionado por las motos y los drones. Con expectativas muy altas de este bootcamp, buscando un crecimiento profesional en otro campo que desde la universidad a sido de su interes y que le permita poder estar más tiempo con su hija</p>
-    </section>
+    </header>
+    <main>
+        <section class="contenedor-nosotros">
+            <h2 class="titulo">Acerca de MI</h2>
+            <div class="contenedor nuestra historia">
+                <img src="mi-foto.jpg" alt="" class="imagen acerca-de-mi">
+                <div class="contenido-texto">
+                    <h3><span>1</span>Andres Martinez</h3>
+                    <p>La empresa fue fundada en 2006 por Frank Wang que fue a Hong Kong en 2003 tras matricularse en un curso de licenciatura en la Universidad de Ciencia y Tecnología de Hong Kong (HKUST). DJI comenzó en la nada y ahora domina el 80% del mercado de los drones a nivel internacional, esperemos a ver qué nos depara el futuro y veamos cuál será la siguiente aeronave no tripulada que nos muestre el mundo desde otra perspectiva.</p>
+                </div>
+            </div>
+        </section>
+        <section class="Productos">
+            <div class="contenedor">
+                <h2 class="titulo">Productos</h2>
+                <div class="galeria-port">
+                    <div class="iamgen-port">
+                        <img src="imagenes/3enterprise.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="imagenes/icono1.png" alt="">
+                            <p>DJI Mavic 3 Enterprise</p>
+                        </div>                    
+                    </div>
+                    <div class="iamgen-port">
+                        <img src="imagenes/3pro.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="imagenes/icono1.png" alt="">
+                            <p>DJI Mavic 3 Pro</p>
+                        </div>                    
+                    </div><div class="iamgen-port">
+                        <img src="imagenes/mini3pro.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="imagenes/icono1.png" alt="">
+                            <p>DJI Mini 3 Pro</p>
+                        </div>                    
+                    </div><div class="iamgen-port">
+                        <img src="imagenes/air2s.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="imagenes/icono1.png" alt="">
+                            <p>DJI Mavic 2S </p>
+                        </div>                    
+                    </div><div class="iamgen-port">
+                        <img src="imagenes/phantom4.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="imagenes/icono1.png" alt="">
+                            <p>DJI Phantom 4 Pro</p>
+                        </div>                    
+                    </div><div class="iamgen-port">
+                        <img src="imagenes/zenmuse.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="imagenes/icono1.png" alt="">
+                            <p>Camara DJI Zenmuse</p>
+                        </div>                    
+                    </div><div class="iamgen-port">
+                        <img src="imagenes/matrice.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="imagenes/icono1.png" alt="">
+                            <p>DJI Matrice 30</p>
+                        </div>                    
+                    </div><div class="iamgen-port">
+                        <img src="imagenes/rtk.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="imagenes/icono1.png" alt="">
+                            <p>DJI Matrice RTK</p>
+                        </div>                    
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="servicios-contenedor">
+            <div class="contenedor">
+                <h2 class="titulo">Nuestros Servicios</h2>
+                <div class="servicios-con">
+                    <div class="servicios-ind">
+                        <img src="imagenes/serv1.jpg" alt="">
+                        <h3>Reparación de Drones</h3>
+                        <p>Servicio técnico de drones DJI brinda un servicio profesional de reparaciones de drones para todas las marcas. Ya sea que necesite un nuevo motor, hélice o tren de aterrizaje, podemos ayudarlo.</p>
 
-    <div id="contenedor"></div>
-        <div id="izquierda">
-            <h2>Mis Hobbies</h2>
-        <ul>
-            <li>Pasar tiempo con mi familia</li>
-            <li>Leer</li>
-            <li>Jugar futbol</li>
-            <li>Jugar videojuegos</li>
-        </ul>
-        </div>
-        <div id="centro">
-            <h2>Mi receta favorita</h2>
-            <h3>Spaghetti con salsa boloñesa</h3>
-            <ol>
-            <dl>
-                <li>Se cocinan los vegetales</li>
-                <dd>Tomaté</dd>
-                <dd>Cebolla</dd>
-                <dd>Zanahoria</dd>
-            </dl>
-                <li>Se sofrie la carne</li>
-                <li>Se licua los vegetales previamente cocinados</li>
-                <li>Se mezcla la salsa resultante con la carne </li>
-                <li>Se añaden los spaghettis previamente cocinados en agua caliente </li>
-           </ol>
-        </div>
-        <div id="derecha">
-            <h2>Mi lugar seguro</h2>
-            <video src="assets/ella.mp4" controls></video>
-            
-    </div>
+                    </div>
+                    <div class="servicios-ind">
+                        <img src="imagenes/serv2.jpg" alt="">
+                        <h3>Curso Piloto de Drones</h3>
+                        <p>Este curso está diseñado para proporcionar a los estudiantes la formación y las habilidades necesarias para convertirse en pilotos de drones de manera segura y eficiente.</p>
+                    </div>
+                </div>
+            </div>            
+    </main>
+    <footer>
+        <h2 class="titulo-final">&COPY; Andres Martinez</h2>
 
-        <table>
-            <h2>Metas materiales</h2>
-            <thead>
-              <tr>
-                <th>Opciónes</th>
-                <th>Referencias</th>
-                <th>Paginas oficiales</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Dron</td>
-                <td>DJI (dji mavic 3 cine)</td>
-                <td>
-                    <a href="https://www.dji.com/global/mavic-3-pro/specs" target="_blank"><img src="assets/dron.jpg" alt="" height="100" width="100"></a>
-                </td>
-              </tr>
-              <tr>
-                <td>Moto</td>
-                <td>BMW R1250 GS</td>
-                <td>
-                    <a href="https://www.bmw-motorrad.co/es/models/adventure/r1250gs.html" target="_blank"><img src="assets/moto.jpg" alt="" height="100" width="100" ></a>
-                </td>
-              </tr>
-              <tr>
-                <td>Carro</td>
-                <td>Mercedes Benz AMG GLC</td>
-                <td>
-                    <a href="https://www.mercedes-benz.com.co/glc-coupe-amg-co" target="_blank"><img src="assets/carro.jpg" alt="" height="100" width="100" ></a>
-                </td>
-              </tr>
-            </tbody>
-        </table>
-
-        <iframe 
-          width="100%" height="526" src="https://www.youtube.com/embed/X4jk9M4B9nA" title="Nuevo Mavic 3 PRO CINE - Prueba a Fondo En Español y Comparativas de las 3 Cámaras" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-        </iframe>
-  </main>
-        <footer><p>Copyright 2023©</p></footer>
-    
+    </footer>
 </body>
 </html>
 
