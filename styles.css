@@ -129,3 +129,8 @@ header{
     .pasatiempos{
         background: var(--color3);
     }
+    .galeria-port{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
