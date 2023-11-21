@@ -174,4 +174,29 @@ header{
     .iamgen-port:hover .hover-galeria{
         transform: scale(1);
     }
+    .receta-con{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .lista-receta{
+        padding-bottom: 8%;
+        font-weight: 350;
+        text-align: justify;
+    }
+    .receta-contenedor .lista-receta{
+        width: 48%;
+        padding: 100px;
 
+    }
+    .video-contenedor{
+        max-width: 800;
+        margin: 0 auto;
+      
+    }
+    .video-receta{
+        position: relative;
+        overflow: hidden;
+        height: 0;
+        padding-bottom: 56%;
+    }
+    
