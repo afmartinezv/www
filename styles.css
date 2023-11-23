@@ -124,6 +124,7 @@ header{
         padding: 0px 0px 30px 15px;
         font-weight: 350;
         text-align: justify;
+        
     }
 
     .pasatiempos{
@@ -183,21 +184,18 @@ header{
         font-weight: 350;
         text-align: justify;
     }
-    .receta-contenedor .lista-receta{
+    .receta .lista-receta{
         width: 48%;
         padding: 100px;
+        flex-wrap: wrap;
 
     }
-    .video-contenedor{
-        max-width: 800;
-        margin: 0 auto;
-      
-    }
+    
     .video-receta{
         position: relative;
         overflow: hidden;
         height: 0;
-        padding-bottom: 56%;
+        padding-bottom: 86%;
     }
 
     .flex-contenedor-cards{
@@ -268,4 +266,8 @@ header{
     }
     .flex-contenedor-cards .card .button-shadow .card-button:hover{
         color: white;
-    }        
+    }
+    
+    .cards{
+        background: var(--color3);
+    }
