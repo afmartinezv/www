@@ -190,7 +190,12 @@ header{
         flex-wrap: wrap;
 
     }
-    
+    .video-contenedor{
+        max-width: 800;
+        margin: 0 auto;
+        flex-wrap: wrap;
+      
+    }
     .video-receta{
         position: relative;
         overflow: hidden;
